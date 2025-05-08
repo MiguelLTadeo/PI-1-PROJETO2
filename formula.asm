@@ -8,6 +8,8 @@ xori $t6,$t3,0000000000000001  #!c
 
 and $t7,$t4,$t5 #!a!b
 and $t8,$t7,$t6 #!a!b!c
+
+and $t7,$t4,$t5 #!a!b
 and $t9,$t7,$t3 #!a!bc
 
 or $t7,$t8,$t9 #!a!b!c+!a!bc
